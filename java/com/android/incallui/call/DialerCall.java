@@ -122,6 +122,7 @@ public class DialerCall implements VideoTechListener {
   private Uri mHandle;
   private int mState = State.INVALID;
   private DisconnectCause mDisconnectCause;
+  private boolean mIsOutgoing = false;
 
   private boolean hasShownWiFiToLteHandoverToast;
   private boolean doNotShowDialogForHandoffToWifiFailure;
@@ -648,12 +649,19 @@ public class DialerCall implements VideoTechListener {
 
   public void setState(int state) {
     mState = state;
+    if (mState == State.DIALING || mState == State.CONNECTING) {
+      mIsOutgoing = true;
+    }
     if (mState == State.INCOMING) {
       mLogState.isIncoming = true;
     } else if (mState == State.DISCONNECTED) {
       mLogState.duration =
           getConnectTimeMillis() == 0 ? 0 : System.currentTimeMillis() - getConnectTimeMillis();
     }
+  }
+
+  public boolean isOutgoing() {
+    return mIsOutgoing;
   }
 
   public int getNumberPresentation() {

@@ -25,4 +25,13 @@
     <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
     <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
     <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+
+    <!-- In-call vibrate options -->
+    <string name="incall_vibration_category_key" translatable="false">dialer_general_incall_vibration_category_key</string>
+    <string name="incall_vibration_category_title">In-call vibration</string>
+    <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
+    <string name="incall_vibrate_call_waiting_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
+    <string name="incall_vibrate_50_title">Vibrate every minute</string>
+    <string name="incall_vibrate_50_summary">Vibrates at the 50 second mark of every minute during outgoing calls</string>
 </resources>
