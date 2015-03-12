@@ -18,6 +18,7 @@
     <!-- In-call vibrate options -->
     <string name="incall_vibration_category_title">In-call vibration</string>
     <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
+    <string name="vibrate_call_waiting">Vibrate on call waiting</string>
     <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
     <string name="incall_vibrate_45_title">Vibrate every minute</string>
     <string name="incall_vibrate_45_summary">Vibrates at 45s of every minute during outgoing calls</string>
