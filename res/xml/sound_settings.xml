@@ -25,13 +25,13 @@
         android:persistent="false"
         android:ringtoneType="ringtone" />
 
-    <CheckBoxPreference
+    <SwitchPreference
         android:key="@string/vibrate_on_preference_key"
         android:title="@string/vibrate_on_ring_title"
         android:persistent="false"
         android:defaultValue="false" />
 
-    <CheckBoxPreference
+    <SwitchPreference
         android:key="@string/play_dtmf_preference_key"
         android:title="@string/dtmf_tone_enable_title"
         android:persistent="false"
@@ -54,7 +54,24 @@
             android:entries="@array/call_recording_encoder_entries"
             android:entryValues="@array/call_recording_encoder_values"
             android:defaultValue="0" />
+    </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="dialer_general_incall_vibration_category_key"
+        android:title="@string/incall_vibration_category_title">
+
+        <SwitchPreference
+            android:key="incall_vibrate_outgoing"
+            android:title="@string/incall_vibrate_outgoing_title" />
+
+        <SwitchPreference
+            android:key="incall_vibrate_hangup"
+            android:title="@string/incall_vibrate_hangup_title" />
+
+        <SwitchPreference
+            android:key="incall_vibrate_45secs"
+            android:title="@string/incall_vibrate_45_title"
+            android:summary="@string/incall_vibrate_45_summary" />
     </PreferenceCategory>
 
 </PreferenceScreen>
