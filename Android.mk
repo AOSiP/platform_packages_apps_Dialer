@@ -38,6 +38,7 @@ LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs)) \
     $(support_library_root_dir)/v7/recyclerview/res \
     $(support_library_root_dir)/v7/appcompat/res \
     $(support_library_root_dir)/design/res
+LOCAL_ASSET_DIR += $(LOCAL_PATH)/assets
 
 LOCAL_JAVA_LIBRARIES := telephony-common \
                         telephony-ext \

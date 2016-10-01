@@ -97,6 +97,12 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
         TelephonyManager telephonyManager =
                 (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 
+        final Header lookupSettingsHeader = new Header();
+        lookupSettingsHeader.titleRes = R.string.lookup_settings_label;
+        lookupSettingsHeader.summaryRes = R.string.lookup_settings_description;
+        lookupSettingsHeader.fragment = LookupSettingsFragment.class.getName();
+        target.add(lookupSettingsHeader);
+
         if (isSpeakerAllowed()) {
             final Header speakerSettingsHeader = new Header();
             speakerSettingsHeader.titleRes = R.string.speaker_settings_label;
