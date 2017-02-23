@@ -106,4 +106,8 @@
     <!-- Title for missed wifi video call in call details screen [CHAR LIMIT=60] -->
     <string name="type_missed_video_wifi">Missed WiFi video call</string>
 
+    <string name="call_log_show_all_slots">All SIMs</string>
+
+    <string name="call_log_all_calls_header">All calls</string>
+
 </resources>
