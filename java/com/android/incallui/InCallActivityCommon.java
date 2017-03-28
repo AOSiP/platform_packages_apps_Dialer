@@ -21,6 +21,7 @@ import android.app.ActivityManager.AppTask;
 import android.app.ActivityManager.TaskDescription;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnDismissListener;
@@ -28,6 +29,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.PowerManager;
 import android.support.annotation.IntDef;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -173,6 +175,12 @@ public class InCallActivityCommon {
             | WindowManager.LayoutParams.FLAG_IGNORE_CHEEK_PRESSES;
 
     inCallActivity.getWindow().addFlags(flags);
+
+    // Enable Sustained Performance Mode if device power hal supports it
+    PowerManager pm = (PowerManager) inCallActivity.getSystemService(Context.POWER_SERVICE);
+    if (pm.isSustainedPerformanceModeSupported()) {
+        inCallActivity.getWindow().setSustainedPerformanceMode(true);
+    }
 
     inCallActivity.setContentView(R.layout.incall_screen);
 
