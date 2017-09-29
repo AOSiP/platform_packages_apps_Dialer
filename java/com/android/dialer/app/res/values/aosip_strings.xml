@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015 The Pure Nexus Project
+     Copyright (C) 2017 The Nitrogen Project
+     Copyright (C) 2017 The Liquid Remix Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Proximity speaker -->
     <string name="speaker_settings_label">Proximity speakerphone</string>
     <string name="prox_auto_speaker_title">Automatic proximity speakerphone</string>
@@ -34,4 +36,12 @@
     <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
     <string name="incall_vibrate_50_title">Vibrate every minute</string>
     <string name="incall_vibrate_50_summary">Vibrates at the 50 second mark of every minute during outgoing calls</string>
+
+    <!-- Other settings -->
+    <string name="other_settings_label">Other settings</string>
+
+    <!-- Dialer postcall -->
+    <string name="enable_post_call_title">Post call snackbar</string>
+    <string name="enable_post_call_summary">Enable post call notifications at the bottom of screen</string>
+
 </resources>

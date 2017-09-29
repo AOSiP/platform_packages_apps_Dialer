@@ -20,6 +20,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BaseTransientBottomBar.BaseCallback;
 import android.support.design.widget.Snackbar;
@@ -203,19 +204,12 @@ public class PostCall {
   }
 
   private static boolean isEnabled(Context context) {
-    @BuildType.Type int type = BuildType.get();
-    switch (type) {
-      case BuildType.BUGFOOD:
-      case BuildType.DOGFOOD:
-      case BuildType.FISHFOOD:
-      case BuildType.TEST:
-        return ConfigProviderBindings.get(context).getBoolean("enable_post_call", true);
-      case BuildType.RELEASE:
-        return ConfigProviderBindings.get(context).getBoolean("enable_post_call_prod", true);
-      default:
-        Assert.fail();
-        return false;
-    }
+
+    SharedPreferences mPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+
+    boolean mEnabled = mPrefs.getBoolean("enable_post_call", true);
+
+    return mEnabled;
   }
 
   private static boolean isSimReady(Context context) {
