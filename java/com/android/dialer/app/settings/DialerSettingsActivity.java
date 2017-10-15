@@ -94,9 +94,10 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
         (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 
     if (isSpeakerAllowed()) {
-        final Header speakerSettingsHeader = new Header();
+        Header speakerSettingsHeader = new Header();
         speakerSettingsHeader.titleRes = R.string.speaker_settings_label;
         speakerSettingsHeader.fragment = SpeakerSettingsFragment.class.getName();
+        speakerSettingsHeader.id = R.id.settings_header_proximity_speakerphone;
         target.add(speakerSettingsHeader);
     }
 
