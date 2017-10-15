@@ -17,6 +17,7 @@
 package com.android.incallui;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.hardware.display.DisplayManager;
 import android.hardware.display.DisplayManager.DisplayListener;
 import android.hardware.Sensor;
@@ -25,7 +26,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Handler;
 import android.os.PowerManager;
-import android.provider.Settings;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.telecom.CallAudioState;
 import android.view.Display;
@@ -62,13 +63,13 @@ public class ProximitySensor
   private boolean mHasIncomingCall = false;
   private boolean mIsPhoneOffhook = false;
   private boolean mIsPhoneOutgoing = false;
-  private boolean mProximitySpeaker = false;
   private boolean mIsProxSensorFar = true;
-  private int mProxSpeakerDelay = 3000;
   private boolean mDialpadVisible;
   private boolean mIsAttemptingVideoCall;
   private boolean mIsVideoCall;
   private Context mContext;
+
+  private SharedPreferences mPrefs;
 
   private final Handler mHandler = new Handler();
   private final Runnable mActivateSpeaker = new Runnable() {
@@ -108,6 +109,8 @@ public class ProximitySensor
 
     mAudioModeProvider = audioModeProvider;
     mAudioModeProvider.addListener(this);
+
+    mPrefs = PreferenceManager.getDefaultSharedPreferences(context);
   }
 
   public void tearDown() {
@@ -331,15 +334,14 @@ public class ProximitySensor
     mHandler.removeCallbacks(mActivateSpeaker);
 
     final int audioState = mAudioModeProvider.getAudioState().getRoute();
+    final boolean isProxSpeakerEnabled =
+        mPrefs.getBoolean("proximity_auto_speaker", false);;
     final boolean proxSpeakerIncallOnlyPref =
-        Settings.System.getInt(mContext.getContentResolver(),
-        Settings.System.PROXIMITY_AUTO_SPEAKER_INCALL_ONLY, 0) == 1;
-    mProxSpeakerDelay = Settings.System.getInt(mContext.getContentResolver(),
-        Settings.System.PROXIMITY_AUTO_SPEAKER_DELAY, 3000);
-
+        mPrefs.getBoolean("proximity_auto_speaker_incall_only", false);
+    final int proxSpeakerDelay = Integer.valueOf(
+        mPrefs.getString("proximity_auto_speaker_delay", "3000"));
     // if phone off hook (call in session), and prox speaker feature is on
-    if (mIsPhoneOffhook && Settings.System.getInt(mContext.getContentResolver(),
-        Settings.System.PROXIMITY_AUTO_SPEAKER, 0) == 1
+    if (mIsPhoneOffhook && isProxSpeakerEnabled
         // as long as AudioState isn't currently wired headset or bluetooth
         && audioState != CallAudioState.ROUTE_WIRED_HEADSET
         && audioState != CallAudioState.ROUTE_BLUETOOTH) {
@@ -354,7 +356,7 @@ public class ProximitySensor
             // or if prox incall only is on, we have to check the call
             // state to decide if AudioState should be speaker
             || (proxSpeakerIncallOnlyPref && !mIsPhoneOutgoing)) {
-          mHandler.postDelayed(mActivateSpeaker, mProxSpeakerDelay);
+          mHandler.postDelayed(mActivateSpeaker, proxSpeakerDelay);
         }
       } else if (!speaker) {
         TelecomAdapter.getInstance().setAudioRoute(CallAudioState.ROUTE_EARPIECE);
