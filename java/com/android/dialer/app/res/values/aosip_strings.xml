@@ -34,4 +34,9 @@
     <string name="recentOutgoing_empty">You have no outgoing calls.</string>
     <string name="call_log_show_all_slots">All SIMs</string>
     <string name="call_log_all_calls_header">All calls</string>
+
+    <string name="incall_enable_dnd_title">Enable Do Not Disturb during calls</string>
+    <string name="incall_dnd_dialog_message">In order to enable Do Not Disturb, the Phone app needs to be granted the permission to control the Do Not Disturb status.\nPlease allow it.</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
 </resources>
