@@ -17,6 +17,8 @@
 package com.android.incallui.contactgrid;
 
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.graphics.drawable.Animatable;
 import android.graphics.drawable.Drawable;
 import android.os.SystemClock;
@@ -35,6 +37,7 @@ import com.android.dialer.common.Assert;
 import com.android.dialer.common.LogUtil;
 import com.android.dialer.lettertile.LetterTileDrawable;
 import com.android.dialer.util.DrawableConverter;
+import com.android.incallui.autoresizetext.CustomAutoResizeTextView;
 import com.android.incallui.incall.protocol.ContactPhotoType;
 import com.android.incallui.incall.protocol.PrimaryCallState;
 import com.android.incallui.incall.protocol.PrimaryInfo;
@@ -90,6 +93,8 @@ public class ContactGridManager {
   private final LetterTileDrawable letterTile;
   private boolean isInMultiWindowMode;
 
+  private boolean isFullscreenPhoto = false;
+
   public ContactGridManager(
       View view, @Nullable ImageView avatarImageView, int avatarSize, boolean showAnonymousAvatar) {
     context = view.getContext();
@@ -117,6 +122,9 @@ public class ContactGridManager {
 
     deviceNumberTextView = view.findViewById(R.id.contactgrid_device_number_text);
     deviceNumberDivider = view.findViewById(R.id.contactgrid_location_divider);
+
+    SharedPreferences mPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+    isFullscreenPhoto = mPrefs.getBoolean("fullscreen_caller_photo", false);
   }
 
   public void show() {
@@ -288,6 +296,7 @@ public class ContactGridManager {
       }
       contactNameTextView.setTextDirection(nameDirection);
       contactNameTextView.setSingleLine(singleLine);
+      ((CustomAutoResizeTextView)contactNameTextView).setMaxLines(2);
     }
 
     if (avatarImageView != null) {
@@ -298,27 +307,33 @@ public class ContactGridManager {
             primaryInfo.photo() != null && primaryInfo.photoType() == ContactPhotoType.CONTACT;
         // Contact has a photo, don't render a letter tile.
         if (hasPhoto) {
-          avatarImageView.setBackground(
-              DrawableConverter.getRoundedDrawable(
-                  context, primaryInfo.photo(), avatarSize, avatarSize));
+          if(isFullscreenPhoto){
+            avatarImageView.setImageDrawable(primaryInfo.photo());
+          } else {
+            avatarImageView.setBackground(
+                DrawableConverter.getRoundedDrawable(
+                    context, primaryInfo.photo(), avatarSize, avatarSize));
+          }
           // Contact has a name, that isn't a number.
         } else {
-          letterTile.setCanonicalDialerLetterTileDetails(
-              primaryInfo.name(),
-              primaryInfo.contactInfoLookupKey(),
-              LetterTileDrawable.SHAPE_CIRCLE,
-              LetterTileDrawable.getContactTypeFromPrimitives(
-                  primaryCallState.isVoiceMailNumber(),
-                  primaryInfo.isSpam(),
-                  primaryCallState.isBusinessNumber(),
-                  primaryInfo.numberPresentation(),
-                  primaryCallState.isConference()));
-          // By invalidating the avatarImageView we force a redraw of the letter tile.
-          // This is required to properly display the updated letter tile iconography based on the
-          // contact type, because the background drawable reference cached in the view, and the
-          // view is not aware of the mutations made to the background.
-          avatarImageView.invalidate();
-          avatarImageView.setBackground(letterTile);
+          if(!isFullscreenPhoto) {
+            letterTile.setCanonicalDialerLetterTileDetails(
+                primaryInfo.name(),
+                primaryInfo.contactInfoLookupKey(),
+                LetterTileDrawable.SHAPE_CIRCLE,
+                LetterTileDrawable.getContactTypeFromPrimitives(
+                    primaryCallState.isVoiceMailNumber(),
+                    primaryInfo.isSpam(),
+                    primaryCallState.isBusinessNumber(),
+                    primaryInfo.numberPresentation(),
+                    primaryCallState.isConference()));
+            // By invalidating the avatarImageView we force a redraw of the letter tile.
+            // This is required to properly display the updated letter tile iconography based on the
+            // contact type, because the background drawable reference cached in the view, and the
+            // view is not aware of the mutations made to the background.
+            avatarImageView.invalidate();
+            avatarImageView.setBackground(letterTile);
+          }
         }
       }
     }
