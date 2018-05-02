@@ -16,20 +16,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="incall_vibrate_call_waiting_title">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_45_title">Vibrate every minute</string>
-  <string name="incall_vibrate_45_summary">Vibrates at the 45 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">Vibração durante chamada</string>
+  <string name="incall_vibrate_outgoing_title">Vibrar ao atender</string>
+  <string name="incall_vibrate_call_waiting_title">Vibrar na chamada em espera</string>
+  <string name="incall_vibrate_hangup_title">Vibrar ao desligar</string>
+  <string name="incall_vibrate_45_title">Vibrar a cada minuto</string>
+  <string name="incall_vibrate_45_summary">Vibrar aos 45 segundos de cada minuto durante chamadas realizadas</string>
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Proximity speakerphone</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speakerphone</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone automatically when your phone is removed from your ear</string>
-  <string name="prox_auto_speaker_delay_title">Speakerphone delay</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Speakerphone delay in (ms)</string>
-  <string name="prox_auto_speaker_delay_summary">Speakerphone will be activated in <xliff:g id="number">%d</xliff:g> ms</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="speaker_settings_label">Viva-voz de proximidade</string>
+  <string name="prox_auto_speaker_title">Viva-voz de proximidade automático</string>
+  <string name="prox_auto_speaker_summary">Ativar o viva-voz automaticamente quando o telefone é afastado da sua orelha</string>
+  <string name="prox_auto_speaker_delay_title">Atraso do viva-voz</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Atraso do viva-voz em (ms)</string>
+  <string name="prox_auto_speaker_delay_summary">Viva-voz será ativado em <xliff:g id="number">%d</xliff:g> ms</string>
+  <string name="prox_auto_speaker_incall_only_title">Apenas em ligação</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Em chamadas de saída, ouvinte só ficará ativo após a chamada for atendida</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Ouvinte estará ativo durante todos os estados da chamada ativa (padrão)</string>
 </resources>
