@@ -16,20 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="incall_vibration_category_title">Δόνηση κατά την κλήση</string>
-  <string name="incall_vibrate_outgoing_title">Δόνηση στην απάντηση</string>
-  <string name="incall_vibrate_call_waiting_title">Δόνηση στην αναμονή</string>
-  <string name="incall_vibrate_hangup_title">Δόνηση στο κλείσιμο</string>
-  <string name="incall_vibrate_45_title">Δόνηση κάθε 1 λεπτό</string>
-  <string name="incall_vibrate_45_summary">Δόνηση στο 45ο δευτερόλεπτο κάθε λεπτού κατά τη διάρκεια εξερχόμενων κλήσεων</string>
   <!-- Proximity speaker -->
   <string name="speaker_settings_label">Μεγάφωνο αισθητήρα εγγύτητας</string>
   <string name="prox_auto_speaker_title">Αυτόματη εγγύτητα μεγαφώνου</string>
-  <string name="prox_auto_speaker_summary">Ενεργοποιήσετε το μεγάφωνο αυτόματα όταν το τηλέφωνό σας έχει απομακρυνθεί από το αυτί σας</string>
+  <string name="prox_auto_speaker_summary">Αυτόματη ενεγργοποίηση μεγάφωνου όταν το τηλέφωνό έχει απομακρυνθεί από το αυτί</string>
   <string name="prox_auto_speaker_delay_title">Καθυστέρηση μεγαφώνου</string>
   <string name="prox_auto_speaker_delay_dialog_title">Καθυστέρηση μεγαφώνου σε (ms)</string>
   <string name="prox_auto_speaker_delay_summary">Το μεγάφωνο θα ενεργοποιηθεί σε <xliff:g id="number">%d</xliff:g> ms</string>
   <string name="prox_auto_speaker_incall_only_title">Μόνο κατά την κλήση</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">Στις εξερχόμενες κλήσεις, o ακροατής θα γίνει ενεργός μόνο μετά την λήψη ομαδοποιημένων απαντήσεων</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Ο ακροατής θα είναι ενεργός κατά την διάρκεια όλων τον απαγκιστρωμένων κρατών που καλούν (προεπιλογή)</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Κατά τις εξερχόμενες κλήσεις, η λειτουργία ενεγοποιήται μόνο μετά την απάντηση μιας κλήσης</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Η λειτουργία είναι ενεργή σε οποιαδήποτε κλήση (προεπιλογή)</string>
+  <string name="type_incoming_volte">Incoming 4G voice call</string>
+  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
+  <string name="type_missed_volte">Missed 4G voice call</string>
+  <string name="recentIncoming_empty">You have no incoming calls.</string>
+  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
+  <string name="call_log_show_all_slots">All SIMs</string>
+  <string name="call_log_all_calls_header">All calls</string>
 </resources>
