@@ -16,12 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="incall_vibration_category_title">Vibra per le chiamate in arrivo</string>
-  <string name="incall_vibrate_outgoing_title">Vibra alla risposta</string>
-  <string name="incall_vibrate_call_waiting_title">Vibra per chiamata in attesa</string>
-  <string name="incall_vibrate_hangup_title">Vibra al termine della chiamata</string>
-  <string name="incall_vibrate_45_title">Vibra ogni minuto</string>
-  <string name="incall_vibrate_45_summary">Vibra al 45esimo secondo di ogni minuto durante le chiamate in uscita</string>
   <!-- Proximity speaker -->
   <string name="speaker_settings_label">Sensore di prossimità del vivavoce</string>
   <string name="prox_auto_speaker_title">Attiva automaticamente il vivavoce con il sensore di prossimità</string>
@@ -32,4 +26,11 @@
   <string name="prox_auto_speaker_incall_only_title">Solo durante le chiamate</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Nelle chiamate in uscita, il vivavoce si attiverà dopo la risposta</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Il vivavoce sarà attivato per tutte le chiamate (predefinito)</string>
+  <string name="type_incoming_volte">Incoming 4G voice call</string>
+  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
+  <string name="type_missed_volte">Missed 4G voice call</string>
+  <string name="recentIncoming_empty">You have no incoming calls.</string>
+  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
+  <string name="call_log_show_all_slots">All SIMs</string>
+  <string name="call_log_all_calls_header">All calls</string>
 </resources>

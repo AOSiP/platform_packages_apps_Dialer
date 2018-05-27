@@ -16,12 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="incall_vibration_category_title">Arama sırasında titreşim</string>
-  <string name="incall_vibrate_outgoing_title">Cevaplandığında titret</string>
-  <string name="incall_vibrate_call_waiting_title">Arama bekletildiğinde titre</string>
-  <string name="incall_vibrate_hangup_title">Kapatıldığında titret</string>
-  <string name="incall_vibrate_45_title">Her dakikada titret</string>
-  <string name="incall_vibrate_45_summary">Giden aramalarda her dakikanın 45. saniyesinde titret</string>
   <!-- Proximity speaker -->
   <string name="speaker_settings_label">Yakınlık hoparlörü</string>
   <string name="prox_auto_speaker_title">Otomatik yakınlık hoparlörü</string>
@@ -32,4 +26,11 @@
   <string name="prox_auto_speaker_incall_only_title">Yalnızca arama sırasında</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Giden aramalarda dinleyici yalnızca alıcı taraf cevapladıktan sonra aktif hale gelecektir</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Dinleyici aramayı cevapladığı durumda etkin olacak (varsayılan)</string>
+  <string name="type_incoming_volte">Incoming 4G voice call</string>
+  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
+  <string name="type_missed_volte">Missed 4G voice call</string>
+  <string name="recentIncoming_empty">You have no incoming calls.</string>
+  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
+  <string name="call_log_show_all_slots">All SIMs</string>
+  <string name="call_log_all_calls_header">All calls</string>
 </resources>

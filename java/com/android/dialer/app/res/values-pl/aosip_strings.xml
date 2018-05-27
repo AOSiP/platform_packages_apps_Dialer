@@ -16,12 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="incall_vibration_category_title">Wibracje w trakcie rozmowy</string>
-  <string name="incall_vibrate_outgoing_title">Wibracja przy odebraniu</string>
-  <string name="incall_vibrate_call_waiting_title">Wibracja przy połączeniu oczekującym</string>
-  <string name="incall_vibrate_hangup_title">Wibracja przy rozłączeniu</string>
-  <string name="incall_vibrate_45_title">Wibracja co minutę</string>
-  <string name="incall_vibrate_45_summary">Wibracja podczas 45 sekundy każdej minuty połączenia wychodzącego</string>
   <!-- Proximity speaker -->
   <string name="speaker_settings_label">Czujnik zbliżeniowy zestawu głośnomówiącego</string>
   <string name="prox_auto_speaker_title">Automatyczny czujnik zbliżeniowy zestawu głośnomówiącego</string>
@@ -32,4 +26,11 @@
   <string name="prox_auto_speaker_incall_only_title">Tylko podczas rozmowy</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Dla połączeń wychodzących, detektor będzie aktywny tylko po otrzymaniu odpowiedzi</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Detektor będzie aktywny dla wszystkich rodzajów połączeń (domyślnie)</string>
+  <string name="type_incoming_volte">Incoming 4G voice call</string>
+  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
+  <string name="type_missed_volte">Missed 4G voice call</string>
+  <string name="recentIncoming_empty">You have no incoming calls.</string>
+  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
+  <string name="call_log_show_all_slots">All SIMs</string>
+  <string name="call_log_all_calls_header">All calls</string>
 </resources>
