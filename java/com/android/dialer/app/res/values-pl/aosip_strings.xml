@@ -26,11 +26,11 @@
   <string name="prox_auto_speaker_incall_only_title">Tylko podczas rozmowy</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Dla połączeń wychodzących, detektor będzie aktywny tylko po otrzymaniu odpowiedzi</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Detektor będzie aktywny dla wszystkich rodzajów połączeń (domyślnie)</string>
-  <string name="type_incoming_volte">Incoming 4G voice call</string>
-  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
-  <string name="type_missed_volte">Missed 4G voice call</string>
-  <string name="recentIncoming_empty">You have no incoming calls.</string>
-  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
-  <string name="call_log_show_all_slots">All SIMs</string>
-  <string name="call_log_all_calls_header">All calls</string>
+  <string name="type_incoming_volte">Przychodzące połączenie głosowe 4G</string>
+  <string name="type_outgoing_volte">Wychodzące połączenie głosowe 4G</string>
+  <string name="type_missed_volte">Nieodebrane połączenie głosowe 4G</string>
+  <string name="recentIncoming_empty">Nie masz połączeń przychodzących.</string>
+  <string name="recentOutgoing_empty">Nie masz połączeń wychodzących.</string>
+  <string name="call_log_show_all_slots">Wszystkie karty SIM</string>
+  <string name="call_log_all_calls_header">Wszystkie połączenia</string>
 </resources>

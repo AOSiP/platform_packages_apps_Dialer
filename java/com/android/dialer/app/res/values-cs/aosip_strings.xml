@@ -26,11 +26,11 @@
   <string name="prox_auto_speaker_incall_only_title">Pouze při hovoru</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Při odchozích hovorech se reproduktor aktivuje při přijmutí hovoru protistranou</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Reproduktor bude aktivní vždy, i při vyzvánění (výchozí)</string>
-  <string name="type_incoming_volte">Incoming 4G voice call</string>
-  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
-  <string name="type_missed_volte">Missed 4G voice call</string>
-  <string name="recentIncoming_empty">You have no incoming calls.</string>
-  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
-  <string name="call_log_show_all_slots">All SIMs</string>
-  <string name="call_log_all_calls_header">All calls</string>
+  <string name="type_incoming_volte">Příchozí 4G hovor</string>
+  <string name="type_outgoing_volte">Odchozí 4G hovor</string>
+  <string name="type_missed_volte">Zmeškaný 4G hovor</string>
+  <string name="recentIncoming_empty">Nemáte žádné nové příchozí hovory.</string>
+  <string name="recentOutgoing_empty">Nemáte žádné odchozí hovory.</string>
+  <string name="call_log_show_all_slots">Všechny SIM</string>
+  <string name="call_log_all_calls_header">Všechny hovory</string>
 </resources>

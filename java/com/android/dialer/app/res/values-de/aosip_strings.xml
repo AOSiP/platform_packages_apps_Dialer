@@ -17,20 +17,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Proximity speakerphone</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speakerphone</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone automatically when your phone is removed from your ear</string>
-  <string name="prox_auto_speaker_delay_title">Speakerphone delay</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Speakerphone delay in (ms)</string>
-  <string name="prox_auto_speaker_delay_summary">Speakerphone will be activated in <xliff:g id="number">%d</xliff:g> ms</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
-  <string name="type_incoming_volte">Incoming 4G voice call</string>
-  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
-  <string name="type_missed_volte">Missed 4G voice call</string>
-  <string name="recentIncoming_empty">You have no incoming calls.</string>
-  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
-  <string name="call_log_show_all_slots">All SIMs</string>
-  <string name="call_log_all_calls_header">All calls</string>
+  <string name="speaker_settings_label">Freisprecheinrichtung bei Annäherung</string>
+  <string name="prox_auto_speaker_title">Automatische Freisprecheinrichtung bei Annäherung</string>
+  <string name="prox_auto_speaker_summary">Freisprechen automatisch aktivieren, wenn Ihr Telefon vom Ohr entfernt wird</string>
+  <string name="prox_auto_speaker_delay_title">Freisprecheinrichtungsverzögerung</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Freisprecheinrichtungsverzögerung in (ms)</string>
+  <string name="prox_auto_speaker_delay_summary">Freisprecheinrichtung wird in <xliff:g id="number">%d</xliff:g> ms aktiviert</string>
+  <string name="prox_auto_speaker_incall_only_title">Nur während eines Anrufs</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Bei ausgehenden Anrufen wird der Hörer erst dann aktiv, wenn der Empfänger antwortet</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Der Hörer ist während des gesamten Telefonats aktiv (Standard)</string>
+  <string name="type_incoming_volte">Eingehender 4G-Sprachanruf</string>
+  <string name="type_outgoing_volte">Ausgehender 4G-Sprachanruf</string>
+  <string name="type_missed_volte">Verpasster 4G-Sprachanruf</string>
+  <string name="recentIncoming_empty">Sie haben noch keine Anrufe erhalten.</string>
+  <string name="recentOutgoing_empty">Sie haben noch keine Anrufe getätigt.</string>
+  <string name="call_log_show_all_slots">Alle SIM-Karten</string>
+  <string name="call_log_all_calls_header">Alle Anrufe</string>
 </resources>

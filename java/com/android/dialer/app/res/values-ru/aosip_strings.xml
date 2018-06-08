@@ -26,11 +26,11 @@
   <string name="prox_auto_speaker_incall_only_title">Только во время вызова</string>
   <string name="prox_auto_speaker_incall_only_summary_on">При исходящих звонках функция активируется только после ответа на вызов</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Функция активна при любых вызовах (по умолчанию)</string>
-  <string name="type_incoming_volte">Incoming 4G voice call</string>
-  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
-  <string name="type_missed_volte">Missed 4G voice call</string>
-  <string name="recentIncoming_empty">You have no incoming calls.</string>
-  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
-  <string name="call_log_show_all_slots">All SIMs</string>
-  <string name="call_log_all_calls_header">All calls</string>
+  <string name="type_incoming_volte">Входящий 4G-звонок</string>
+  <string name="type_outgoing_volte">Исходящий 4G-звонок</string>
+  <string name="type_missed_volte">Пропущенный 4G-звонок</string>
+  <string name="recentIncoming_empty">Входящих вызовов нет.</string>
+  <string name="recentOutgoing_empty">Исходящих вызовов нет.</string>
+  <string name="call_log_show_all_slots">Все SIM-карты</string>
+  <string name="call_log_all_calls_header">Все звонки</string>
 </resources>

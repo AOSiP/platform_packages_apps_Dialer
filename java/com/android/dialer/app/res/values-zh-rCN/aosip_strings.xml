@@ -26,11 +26,11 @@
   <string name="prox_auto_speaker_incall_only_title">仅在通话时</string>
   <string name="prox_auto_speaker_incall_only_summary_on">在拨出电话时，监听器在对方接听后才启用</string>
   <string name="prox_auto_speaker_incall_only_summary_off">检测器在通话状态始终激活（默认）</string>
-  <string name="type_incoming_volte">Incoming 4G voice call</string>
-  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
-  <string name="type_missed_volte">Missed 4G voice call</string>
-  <string name="recentIncoming_empty">You have no incoming calls.</string>
-  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
-  <string name="call_log_show_all_slots">All SIMs</string>
-  <string name="call_log_all_calls_header">All calls</string>
+  <string name="type_incoming_volte">4G 语音来电</string>
+  <string name="type_outgoing_volte">4G 语音呼叫</string>
+  <string name="type_missed_volte">未接 4G 语音通话</string>
+  <string name="recentIncoming_empty">您尚无来电。</string>
+  <string name="recentOutgoing_empty">您尚无呼出。</string>
+  <string name="call_log_show_all_slots">所有 SIM 卡</string>
+  <string name="call_log_all_calls_header">所有通话</string>
 </resources>

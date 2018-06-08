@@ -26,11 +26,11 @@
   <string name="prox_auto_speaker_incall_only_title">Apenas em ligação</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Em chamadas de saída, ouvinte só ficará ativo após a chamada for atendida</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Ouvinte estará ativo durante todos os estados da chamada ativa (padrão)</string>
-  <string name="type_incoming_volte">Incoming 4G voice call</string>
-  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
-  <string name="type_missed_volte">Missed 4G voice call</string>
-  <string name="recentIncoming_empty">You have no incoming calls.</string>
-  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
-  <string name="call_log_show_all_slots">All SIMs</string>
-  <string name="call_log_all_calls_header">All calls</string>
+  <string name="type_incoming_volte">Chamada de voz 4G recebida</string>
+  <string name="type_outgoing_volte">Chamada de voz 4G efetuada</string>
+  <string name="type_missed_volte">Chamada de voz perdida 4G</string>
+  <string name="recentIncoming_empty">Você não tem chamadas recebidas.</string>
+  <string name="recentOutgoing_empty">Você não tem chamadas efetuadas.</string>
+  <string name="call_log_show_all_slots">Todos os cartões SIM</string>
+  <string name="call_log_all_calls_header">Todas as chamadas</string>
 </resources>

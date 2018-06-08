@@ -26,11 +26,11 @@
   <string name="prox_auto_speaker_incall_only_title">Solo durante le chiamate</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Nelle chiamate in uscita, il vivavoce si attiverà dopo la risposta</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Il vivavoce sarà attivato per tutte le chiamate (predefinito)</string>
-  <string name="type_incoming_volte">Incoming 4G voice call</string>
-  <string name="type_outgoing_volte">Outgoing 4G voice call</string>
-  <string name="type_missed_volte">Missed 4G voice call</string>
-  <string name="recentIncoming_empty">You have no incoming calls.</string>
-  <string name="recentOutgoing_empty">You have no outgoing calls.</string>
-  <string name="call_log_show_all_slots">All SIMs</string>
-  <string name="call_log_all_calls_header">All calls</string>
+  <string name="type_incoming_volte">Chiamata 4G in arrivo</string>
+  <string name="type_outgoing_volte">Chiamata 4G in uscita</string>
+  <string name="type_missed_volte">Chiamata 4G persa</string>
+  <string name="recentIncoming_empty">Non ci sono chiamate in arrivo.</string>
+  <string name="recentOutgoing_empty">Non ci sono chiamate in uscita.</string>
+  <string name="call_log_show_all_slots">Tutte le SIM</string>
+  <string name="call_log_all_calls_header">Tutte le chiamate</string>
 </resources>
