@@ -306,10 +306,12 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 LOCAL_STATIC_ANDROID_LIBRARIES := \
 	android-support-design \
 	android-support-transition \
+    android-support-v14-preference \
 	android-support-v13 \
 	android-support-v4 \
 	android-support-v7-appcompat \
 	android-support-v7-cardview \
+    android-support-v7-preference \
 	android-support-v7-recyclerview \
 
 LOCAL_JAVA_LIBRARIES := \
@@ -333,7 +335,6 @@ LOCAL_ADDITIONAL_DEPENDENCIES += $(PROCESSOR_JARS)
 
 LOCAL_JACK_FLAGS += --processorpath $(call normalize-path-list,$(PROCESSOR_JARS))
 LOCAL_JAVACFLAGS += -processorpath $(call normalize-path-list,$(PROCESSOR_JARS))
-
 
 # Begin Bug: 37077388
 LOCAL_DX_FLAGS := --multi-dex
