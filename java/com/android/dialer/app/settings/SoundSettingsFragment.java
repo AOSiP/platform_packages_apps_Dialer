@@ -25,6 +25,7 @@ import android.os.Message;
 import android.os.Vibrator;
 import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
@@ -35,9 +36,12 @@ import android.widget.Toast;
 import com.android.dialer.app.R;
 import com.android.dialer.compat.SdkVersionOverride;
 import com.android.dialer.util.SettingsUtil;
+import com.aosip.owlsnest.utils.TelephonyUtils;
 
 public class SoundSettingsFragment extends PreferenceFragment
     implements Preference.OnPreferenceChangeListener {
+
+  private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
   private static final int NO_DTMF_TONE = 0;
   private static final int PLAY_DTMF_TONE = 1;
@@ -84,6 +88,7 @@ public class SoundSettingsFragment extends PreferenceFragment
     addPreferencesFromResource(R.xml.sound_settings);
 
     Context context = getActivity();
+    final PreferenceScreen prefSet = getPreferenceScreen();
 
     mRingtonePreference = findPreference(context.getString(R.string.ringtone_preference_key));
     mVibrateWhenRinging =
@@ -118,6 +123,11 @@ public class SoundSettingsFragment extends PreferenceFragment
     } else {
       getPreferenceScreen().removePreference(mDtmfToneLength);
       mDtmfToneLength = null;
+    }
+
+    PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+    if (!TelephonyUtils.isVoiceCapable(getActivity())) {
+	    prefSet.removePreference(incallVibCategory);
     }
   }
 
