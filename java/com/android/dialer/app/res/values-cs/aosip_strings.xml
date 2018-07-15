@@ -33,8 +33,8 @@
   <string name="recentOutgoing_empty">Nemáte žádné odchozí hovory.</string>
   <string name="call_log_show_all_slots">Všechny SIM</string>
   <string name="call_log_all_calls_header">Všechny hovory</string>
-  <string name="incall_enable_dnd_title">Enable Do Not Disturb during calls</string>
-  <string name="incall_dnd_dialog_message">In order to enable Do Not Disturb, the Phone app needs to be granted the permission to control the Do Not Disturb status.\nPlease allow it.</string>
-  <string name="allow">Allow</string>
-  <string name="deny">Deny</string>
+  <string name="incall_enable_dnd_title">Povolit režim Nerušit během hovoru</string>
+  <string name="incall_dnd_dialog_message">Chcete-li povolit režim Nerušit, musí být telefonní aplikaci udělena oprávnění k ovládání stavu režimu Nerušit.\nPovolte to.</string>
+  <string name="allow">Povolit</string>
+  <string name="deny">Odepřít</string>
 </resources>
