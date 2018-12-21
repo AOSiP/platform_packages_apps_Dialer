@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">In-call</string>
     <string name="incall_enable_dnd_title">Ota Älä häiritse käyttöön puheluiden aikana</string>
     <string name="incall_dnd_dialog_message">Ottaaksesi \"Älä häiritse\" käyttöön, Puhelin-sovellukselle pitää antaa käyttöoikeus hallita Älä häiritse-tilaa.\nAnna käyttöoikeus.</string>
     <string name="allow">Salli</string>

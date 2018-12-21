@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">In-call</string>
     <string name="incall_enable_dnd_title">Aramalar sırasında Rahatsız Etmeyin\'i etkinleştir</string>
     <string name="incall_dnd_dialog_message">Rahatsız Etmeyin\'i etkinleştirmek için, Telefon uygulamasının Rahatsız Etmeyin durumunu kontrol etme iznine sahip olması gerekir.\nLütfen buna izin verin.</string>
     <string name="allow">İzin ver</string>

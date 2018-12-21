@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">In-call</string>
     <string name="incall_enable_dnd_title">Attiva Non Disturbare durante le chiamate</string>
     <string name="incall_dnd_dialog_message">Per abilitare la funzione Non disturbare, l\'app Telefono deve essere autorizzata a controllare lo stato Non disturbare.\nSi prega di autorizzare.</string>
     <string name="allow">Consenti</string>

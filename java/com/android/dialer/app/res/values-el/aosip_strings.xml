@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">In-call</string>
     <string name="incall_enable_dnd_title">Ενεργοποίηση Μην Ενοχλείτε κατά τις κλήσεις</string>
     <string name="incall_dnd_dialog_message">Για να ενεργοποιηθεί η λειτουργία \"Μην ενοχλείτε\", η εφαρμογή του Τηλεφώνου χρειάζεται το δικαίωμα ελέγχου της λειτουργίας \"Μην ενοχλείτε\". \nΠαρακαλώ χορηγήστε το.</string>
     <string name="allow">Αποδοχή</string>

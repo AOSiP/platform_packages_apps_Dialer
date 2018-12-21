@@ -16,13 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">In-call</string>
     <string name="incall_enable_dnd_title">Włącz tryb Nie przeszkadzać podczas połączeń</string>
     <string name="incall_dnd_dialog_message">Aby włączyć opcję Dnd(Nie przeszkadzać), aplikacja \"Telefon\" musi mieć uprawnienia do kontrolowania jej statusu. \nProszę na to zezwolić.</string>
     <string name="allow">Zezwól</string>
     <string name="deny">Odmów</string>
-    <string name="call_recording_category_title">Call recording</string>
-    <string name="call_recording_format">Audio format</string>
-    <string name="call_via">Call via</string>
-    <string name="call_via_dialog_title">Call via\u2026</string>
-    <string name="call_log_stats_title">Statistics</string>
+    <string name="call_recording_category_title">Nagrywanie połączenia</string>
+    <string name="call_recording_format">Format audio</string>
+    <string name="call_via">Zadzwoń przez</string>
+    <string name="call_via_dialog_title">Zadzwoń przez\u2026</string>
+    <string name="call_log_stats_title">Statystyki</string>
 </resources>
