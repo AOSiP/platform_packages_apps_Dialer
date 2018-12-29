@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="incall_category_title">In-call</string>
+    <string name="incall_category_title">통화 중</string>
     <string name="incall_enable_dnd_title">통화 중 방해 금지 모드 사용</string>
     <string name="incall_dnd_dialog_message">방해 금지 모드를 사용하려면 앱이 방해 금지 모드를 제어할 수 있어야 합니다.\n권한을 허용해 주세요.</string>
     <string name="allow">허용</string>

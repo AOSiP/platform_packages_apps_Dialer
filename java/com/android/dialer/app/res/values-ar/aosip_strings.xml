@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="incall_category_title">In-call</string>
+    <string name="incall_category_title">قيد الإتصال</string>
     <string name="incall_enable_dnd_title">تفعيل عدم الإزعاج أثناء المكالمات</string>
     <string name="incall_dnd_dialog_message">لتفعيل \"عدم الإزعاج\"، يجب منح تطبيق الهاتف الإذن بالتحكم في حالة \"عدم الإزعاج\".\n الرجاء السماح بذلك.</string>
     <string name="allow">السماح</string>
