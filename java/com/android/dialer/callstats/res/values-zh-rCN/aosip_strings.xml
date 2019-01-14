@@ -19,9 +19,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call_stats_detail_title">联系人统计信息</string>
     <string name="call_stats_incoming">来电：<xliff:g id="value">%s</xliff:g> 次</string>
-    <string name="call_stats_outgoing">去电：<xliff:g id="value">%s</xliff:g> 次</string>
+    <string name="call_stats_outgoing">呼出：<xliff:g id="value">%s</xliff:g></string>
     <string name="call_stats_missed">未接：<xliff:g id="value">%s</xliff:g> 次</string>
-    <string name="call_stats_blocked">拦截：<xliff:g id="value">%s</xliff:g> 次</string>
+    <string name="call_stats_blocked">阻止：<xliff:g id="value">%s</xliff:g> 次</string>
     <string name="call_stats_header_total">总计：<xliff:g id="call_count">%s</xliff:g>，<xliff:g id="duration">%s</xliff:g></string>
     <string name="call_stats_header_total_callsonly">总计：<xliff:g id="call_count">%s</xliff:g></string>
     <string name="call_stats_filter_from">开始日期</string>
@@ -30,7 +30,7 @@
     <string name="date_quick_selection">快速选择</string>
     <string name="date_qs_currentmonth">本月</string>
     <string name="date_qs_currentquarter">本季度</string>
-    <string name="date_qs_currentyear">今年</string>
+    <string name="date_qs_currentyear">本年度</string>
     <string name="date_qs_lastweek">过去一周内</string>
     <string name="date_qs_lastmonth">过去一个月内</string>
     <string name="date_qs_lastquarter">过去一个季度内</string>

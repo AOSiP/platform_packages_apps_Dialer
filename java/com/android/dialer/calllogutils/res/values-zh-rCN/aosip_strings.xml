@@ -23,5 +23,5 @@
     <string name="call_log_outgoing_header">只显示呼出通话</string>
     <string name="call_log_missed_header">只显示未接来电</string>
     <string name="call_log_voicemail_header">只显示语音信箱留言</string>
-    <string name="call_log_blacklist_header">仅拦截的呼叫</string>
+    <string name="call_log_blacklist_header">仅阻止通话</string>
 </resources>
