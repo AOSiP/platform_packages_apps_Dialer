@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="incall_category_title">In-call</string>
+    <string name="incall_category_title">En llamada</string>
     <string name="incall_enable_dnd_title">Habilitar Modo No molestar durante las llamadas</string>
     <string name="incall_dnd_dialog_message">Para habilitar No molestar, la aplicación del teléfono necesita permiso para controlar el estado No molestar.\nPor favor, permítalo.</string>
     <string name="allow">Permitir</string>
