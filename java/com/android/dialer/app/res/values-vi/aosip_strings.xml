@@ -16,14 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="incall_category_title">In-call</string>
-    <string name="incall_enable_dnd_title">Enable Do Not Disturb during calls</string>
-    <string name="incall_dnd_dialog_message">In order to enable Do Not Disturb, the Phone app needs to be granted the permission to control the Do Not Disturb status.\nPlease allow it.</string>
-    <string name="allow">Allow</string>
-    <string name="deny">Deny</string>
-    <string name="call_recording_category_title">Call recording</string>
-    <string name="call_recording_format">Audio format</string>
-    <string name="call_via">Call via</string>
-    <string name="call_via_dialog_title">Call via\u2026</string>
-    <string name="call_log_stats_title">Statistics</string>
+    <string name="incall_category_title">Trong cuộc gọi</string>
+    <string name="incall_enable_dnd_title">Bật Không làm phiền khi đang gọi</string>
+    <string name="incall_dnd_dialog_message">Để bật Không làm phiền, ứng dụng Điện thoại cần được cấp quyền Truy cập Không làm phiền.\nVui lòng chọn Cho phêp để cấp quyền.</string>
+    <string name="allow">Cho phép</string>
+    <string name="deny">Từ chối</string>
+    <string name="call_recording_category_title">Ghi âm cuộc gọi</string>
+    <string name="call_recording_format">Định dạng âm thanh</string>
+    <string name="call_via">Gọi bằng</string>
+    <string name="call_via_dialog_title">Gọi bằng\u2026</string>
+    <string name="call_log_stats_title">Thống kê</string>
 </resources>
