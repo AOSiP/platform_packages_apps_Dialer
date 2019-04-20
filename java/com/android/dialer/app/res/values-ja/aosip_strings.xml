@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="incall_category_title">着信</string>
     <string name="incall_enable_dnd_title">通話中にマナーモードを有効化</string>
-    <string name="incall_dnd_dialog_message">マナーモードを有効化するには電話アプリにマナーモードの状態を操作する権限を許可する必要があります。\n許可して下さい。</string>
+    <string name="incall_dnd_dialog_message">マナーモードを有効化するには電話アプリにマナーモードの状態を操作する権限を許可する必要があります。\n許可を与えて下さい。</string>
     <string name="allow">許可</string>
     <string name="deny">拒否</string>
     <string name="call_recording_category_title">通話の録音</string>
