@@ -25,16 +25,16 @@
     <string name="call_stats_header_total">Всего: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
     <string name="call_stats_header_total_callsonly">Всего: <xliff:g id="call_count">%s</xliff:g></string>
     <string name="call_stats_filter_from">Дата начала</string>
-    <string name="call_stats_filter_to">Конечная дата</string>
+    <string name="call_stats_filter_to">Дата окончания</string>
     <string name="call_stats_filter_picker_title">Диапазон выбора</string>
     <string name="date_quick_selection">Быстрый выбор</string>
     <string name="date_qs_currentmonth">Текущий месяц</string>
     <string name="date_qs_currentquarter">Текущий квартал</string>
     <string name="date_qs_currentyear">Текущий год</string>
-    <string name="date_qs_lastweek">Последняя неделя</string>
-    <string name="date_qs_lastmonth">Последний месяц</string>
-    <string name="date_qs_lastquarter">Последний квартал</string>
-    <string name="date_qs_lastyear">Последний год</string>
+    <string name="date_qs_lastweek">Прошлая неделя</string>
+    <string name="date_qs_lastmonth">Прошлый месяц</string>
+    <string name="date_qs_lastquarter">Прошлый квартал</string>
+    <string name="date_qs_lastyear">Прошлый год</string>
     <string name="call_stats_date_filter">Выбрать временной промежуток</string>
     <string name="call_stats_reset_filter">Сбросить временной промежуток</string>
     <string name="call_stats_sort_by_duration">Сортировать по длительности вызова</string>
