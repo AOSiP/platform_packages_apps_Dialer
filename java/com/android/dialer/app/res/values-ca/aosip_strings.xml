@@ -16,14 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="incall_category_title">In-call</string>
-    <string name="incall_enable_dnd_title">Enable Do Not Disturb during calls</string>
-    <string name="incall_dnd_dialog_message">In order to enable Do Not Disturb, the Phone app needs to be granted the permission to control the Do Not Disturb status.\nPlease allow it.</string>
-    <string name="allow">Allow</string>
-    <string name="deny">Deny</string>
-    <string name="call_recording_category_title">Call recording</string>
-    <string name="call_recording_format">Audio format</string>
-    <string name="call_via">Call via</string>
-    <string name="call_via_dialog_title">Call via\u2026</string>
-    <string name="call_log_stats_title">Statistics</string>
+    <string name="incall_category_title">Durant la trucada</string>
+    <string name="incall_enable_dnd_title">Activa el mode No Molestar durant les trucades</string>
+    <string name="incall_dnd_dialog_message">Per activar el mode No Molestar, l\'aplicació Telèfon cal que compti amb el permís per a controlar l\'estat de No Molestar.\nPermet-ho, si us plau.</string>
+    <string name="allow">Permet</string>
+    <string name="deny">Denega</string>
+    <string name="call_recording_category_title">Enregistrament de trucades</string>
+    <string name="call_recording_format">Format d\'àudio</string>
+    <string name="call_via">Truca a través</string>
+    <string name="call_via_dialog_title">Truca a través\u2026</string>
+    <string name="call_log_stats_title">Estadí­stiques</string>
 </resources>
