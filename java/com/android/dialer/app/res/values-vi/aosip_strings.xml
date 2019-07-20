@@ -23,7 +23,12 @@
     <string name="deny">Từ chối</string>
     <string name="call_recording_category_title">Ghi âm cuộc gọi</string>
     <string name="call_recording_format">Định dạng âm thanh</string>
+    <string name="auto_call_recording_title">Tự động ghi âm cuộc gọi</string>
     <string name="call_via">Gọi bằng</string>
     <string name="call_via_dialog_title">Gọi bằng\u2026</string>
     <string name="call_log_stats_title">Thống kê</string>
+    <string name="other_settings_label">Cài đặt khác</string>
+    <string name="fullscreen_caller_photo_title">Ảnh người gọi toàn màn hình</string>
+    <string name="fullscreen_caller_photo_summary">Hiển thị hình ảnh người gọi toàn màn hình trong cuộc gọi đi và đến</string>
+    <string name="fullscreen_caller_photo_message">Để sử dụng, bạn phải khởi động lại ứng dụng</string>
 </resources>

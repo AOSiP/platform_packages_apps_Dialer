@@ -23,7 +23,12 @@
     <string name="deny">Elutasítás</string>
     <string name="call_recording_category_title">Hívásrögzítés</string>
     <string name="call_recording_format">Hangformátum</string>
+    <string name="auto_call_recording_title">Automatikus hívásrögzítés</string>
     <string name="call_via">Hívás a következővel</string>
     <string name="call_via_dialog_title">Hívás a következővel\u2026</string>
     <string name="call_log_stats_title">Statisztikák</string>
+    <string name="other_settings_label">Egyéb beállítások</string>
+    <string name="fullscreen_caller_photo_title">Teljesképernyős-fénykép</string>
+    <string name="fullscreen_caller_photo_summary">Kimenő és bejövő hívások közben teljes képernyőt betöltő fényképek használata</string>
+    <string name="fullscreen_caller_photo_message">Használathoz újra kell indítania az alkalmazást</string>
 </resources>

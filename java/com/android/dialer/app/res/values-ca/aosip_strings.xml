@@ -23,7 +23,12 @@
     <string name="deny">Denega</string>
     <string name="call_recording_category_title">Enregistrament de trucades</string>
     <string name="call_recording_format">Format d\'àudio</string>
+    <string name="auto_call_recording_title">Enregistrament automàtic de trucades</string>
     <string name="call_via">Truca a través</string>
     <string name="call_via_dialog_title">Truca a través\u2026</string>
     <string name="call_log_stats_title">Estadí­stiques</string>
+    <string name="other_settings_label">Altres opcions</string>
+    <string name="fullscreen_caller_photo_title">Fotografia a pantalla completa</string>
+    <string name="fullscreen_caller_photo_summary">Mostra fotografia a pantalla completa en les trucades entrants i sortints</string>
+    <string name="fullscreen_caller_photo_message">Per a fer-ho servir, has de reiniciar l\'aplicació</string>
 </resources>

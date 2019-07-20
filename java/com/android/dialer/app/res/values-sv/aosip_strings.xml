@@ -23,7 +23,12 @@
     <string name="deny">Deny</string>
     <string name="call_recording_category_title">Call recording</string>
     <string name="call_recording_format">Audio format</string>
+    <string name="auto_call_recording_title">Auto call recording</string>
     <string name="call_via">Call via</string>
     <string name="call_via_dialog_title">Call via\u2026</string>
     <string name="call_log_stats_title">Statistics</string>
+    <string name="other_settings_label">Other settings</string>
+    <string name="fullscreen_caller_photo_title">Fullscreen photo</string>
+    <string name="fullscreen_caller_photo_summary">Display full-screen photo in incoming and outgoing calls</string>
+    <string name="fullscreen_caller_photo_message">To use, you must restart the application</string>
 </resources>
