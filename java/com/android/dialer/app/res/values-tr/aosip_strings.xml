@@ -23,12 +23,12 @@
     <string name="deny">Reddet</string>
     <string name="call_recording_category_title">Arama kaydı</string>
     <string name="call_recording_format">Ses formatı</string>
-    <string name="auto_call_recording_title">Auto call recording</string>
+    <string name="auto_call_recording_title">Otomatik arama kaydı</string>
     <string name="call_via">ile ara</string>
     <string name="call_via_dialog_title">\u2026 ile ara</string>
     <string name="call_log_stats_title">İstatistikler</string>
-    <string name="other_settings_label">Other settings</string>
-    <string name="fullscreen_caller_photo_title">Fullscreen photo</string>
-    <string name="fullscreen_caller_photo_summary">Display full-screen photo in incoming and outgoing calls</string>
-    <string name="fullscreen_caller_photo_message">To use, you must restart the application</string>
+    <string name="other_settings_label">Diğer ayarlar</string>
+    <string name="fullscreen_caller_photo_title">Tam ekran fotoğraf</string>
+    <string name="fullscreen_caller_photo_summary">Gelen ve giden aramalarda tam ekran fotoğraf görüntüleme</string>
+    <string name="fullscreen_caller_photo_message">Kullanmak için uygulamayı yeniden başlatmanız gerekir</string>
 </resources>

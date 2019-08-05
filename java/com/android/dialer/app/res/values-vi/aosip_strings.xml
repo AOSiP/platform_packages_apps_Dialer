@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="incall_category_title">Trong cuộc gọi</string>
-    <string name="incall_enable_dnd_title">Bật Không làm phiền khi đang gọi</string>
-    <string name="incall_dnd_dialog_message">Để bật Không làm phiền, ứng dụng Điện thoại cần được cấp quyền Truy cập Không làm phiền.\nVui lòng chọn Cho phêp để cấp quyền.</string>
+    <string name="incall_enable_dnd_title">Bật chế độ DND khi đang gọi</string>
+    <string name="incall_dnd_dialog_message">Để bật chế độ DND, ứng dụng Điện thoại cần được cấp quyền truy cập chế độ DND.\nVui lòng chọn Cho phép để cấp quyền.</string>
     <string name="allow">Cho phép</string>
     <string name="deny">Từ chối</string>
     <string name="call_recording_category_title">Ghi âm cuộc gọi</string>
@@ -29,6 +29,6 @@
     <string name="call_log_stats_title">Thống kê</string>
     <string name="other_settings_label">Cài đặt khác</string>
     <string name="fullscreen_caller_photo_title">Ảnh người gọi toàn màn hình</string>
-    <string name="fullscreen_caller_photo_summary">Hiển thị hình ảnh người gọi toàn màn hình trong cuộc gọi đi và đến</string>
+    <string name="fullscreen_caller_photo_summary">Hiển thị hình ảnh người gọi toàn màn hình</string>
     <string name="fullscreen_caller_photo_message">Để sử dụng, bạn phải khởi động lại ứng dụng</string>
 </resources>
