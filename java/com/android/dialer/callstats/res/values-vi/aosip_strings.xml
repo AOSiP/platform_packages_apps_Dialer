@@ -20,7 +20,7 @@
     <string name="call_stats_detail_title">Thống kê chi tiết liên hệ</string>
     <string name="call_stats_incoming">Cuộc gọi đến: <xliff:g id="value">%s</xliff:g></string>
     <string name="call_stats_outgoing">Cuộc gọi đi: <xliff:g id="value">%s</xliff:g></string>
-    <string name="call_stats_missed">Bị nhỡ: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_missed">Cuộc gọi nhỡ: <xliff:g id="value">%s</xliff:g></string>
     <string name="call_stats_blocked">Bị chặn: <xliff:g id="value">%s</xliff:g></string>
     <string name="call_stats_header_total">Tổng cộng: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
     <string name="call_stats_header_total_callsonly">Tổng cộng: <xliff:g id="call_count">%s</xliff:g></string>
