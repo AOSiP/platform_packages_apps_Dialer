@@ -36,7 +36,7 @@
     <string name="date_qs_lastquarter">Last quarter</string>
     <string name="date_qs_lastyear">Last year</string>
     <string name="call_stats_date_filter">Adjust time range</string>
-    <string name="call_stats_reset_filter">Reset time range</string>
+    <string name="call_stats_reset_filter">Setel ulang rentang waktu</string>
     <string name="call_stats_sort_by_duration">Sort by call duration</string>
     <string name="call_stats_sort_by_count">Sort by call count</string>
     <string name="call_stats_title_for_number">This number</string>
