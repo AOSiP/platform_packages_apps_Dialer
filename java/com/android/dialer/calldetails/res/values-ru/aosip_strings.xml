@@ -17,9 +17,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="play_recordings">
         <item quantity="one">Воспроизвести запись</item>
-        <item quantity="few">Play recordings</item>
-        <item quantity="many">Play recordings</item>
-        <item quantity="other">Play recordings</item>
+        <item quantity="few">Воспроизвести записи</item>
+        <item quantity="many">Воспроизвести записи</item>
+        <item quantity="other">Воспроизвести записи</item>
     </plurals>
     <string name="call_playback_no_app_found_toast">Нет приложений которые смогли бы воспроизвести выбранную запись.</string>
 </resources>
