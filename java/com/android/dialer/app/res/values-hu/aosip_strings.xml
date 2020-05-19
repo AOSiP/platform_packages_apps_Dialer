@@ -26,7 +26,7 @@
     <string name="call_via">Hívás a következővel</string>
     <string name="call_via_dialog_title">Hívás a következővel\u2026</string>
     <string name="call_log_stats_title">Statisztikák</string>
-    <string name="disable_proximity_sensor_title">Disable proximity sensor</string>
-    <string name="disable_proximity_sensor_summary">Do not turn off touchscreen and display in call based on proximity sensor</string>
-    <string name="sensor_settings_titile">Sensors</string>
+    <string name="disable_proximity_sensor_title">Közelségérzékelő kikapcsolása</string>
+    <string name="disable_proximity_sensor_summary">A közelségérzékelő nem fogja kikapcsolni az érintőképernyőt és a kijelzőt hívás közben</string>
+    <string name="sensor_settings_titile">Szenzorok</string>
 </resources>

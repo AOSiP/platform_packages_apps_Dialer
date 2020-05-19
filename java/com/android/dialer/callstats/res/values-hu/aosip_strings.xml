@@ -22,7 +22,7 @@
     <string name="call_stats_missed">Nem fogadott: <xliff:g id="value">%s</xliff:g></string>
     <string name="call_stats_blocked">Blokkolt: <xliff:g id="value">%s</xliff:g></string>
     <string name="call_stats_percent"><xliff:g id="percent">%d</xliff:g>%%</string>
-    <string name="call_stats_header_total">Total: <xliff:g id="call_count">%1$s</xliff:g>, <xliff:g id="duration">%2$s</xliff:g></string>
+    <string name="call_stats_header_total">Összesen <xliff:g id="call_count">%1$s</xliff:g> db, <xliff:g id="duration">%2$s</xliff:g> hosszban</string>
     <string name="call_stats_header_total_callsonly">Összesen: <xliff:g id="call_count">%s</xliff:g></string>
     <string name="call_stats_filter_from">Kezdés dátuma</string>
     <string name="call_stats_filter_to">Befejezés dátuma</string>
