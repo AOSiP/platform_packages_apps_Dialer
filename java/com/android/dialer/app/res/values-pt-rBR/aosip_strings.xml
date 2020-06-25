@@ -27,6 +27,6 @@
     <string name="call_via_dialog_title">Chamar via\u2026</string>
     <string name="call_log_stats_title">Estatísticas</string>
     <string name="disable_proximity_sensor_title">Desativar sensor de proximidade</string>
-    <string name="disable_proximity_sensor_summary">Não desligue a tela sensível ao toque e apresente a chamada com base no sensor de proximidade</string>
+    <string name="disable_proximity_sensor_summary">Não desliga a tela sensível ao toque ao fazer chamada com base no sensor de proximidade</string>
     <string name="sensor_settings_titile">Sensores</string>
 </resources>
