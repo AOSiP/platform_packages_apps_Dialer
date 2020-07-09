@@ -16,17 +16,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="incall_category_title">In-call</string>
+    <string name="incall_category_title">Počas hovoru</string>
     <string name="incall_enable_dnd_title">Povoliť režim Nerušiť počas hovoru</string>
     <string name="incall_dnd_dialog_message">Ak chcete povoliť režim Nerušiť, musí byť telefónnej aplikácii udelené oprávnenie na ovládanie stavu režimu Nerušiť.\nPovoľte to.</string>
     <string name="allow">Povoliť</string>
     <string name="deny">Odmietnuť</string>
-    <string name="call_recording_category_title">Call recording</string>
-    <string name="call_recording_format">Audio format</string>
-    <string name="call_via">Call via</string>
-    <string name="call_via_dialog_title">Call via\u2026</string>
-    <string name="call_log_stats_title">Statistics</string>
-    <string name="disable_proximity_sensor_title">Disable proximity sensor</string>
-    <string name="disable_proximity_sensor_summary">Do not turn off touchscreen and display in call based on proximity sensor</string>
-    <string name="sensor_settings_titile">Sensors</string>
+    <string name="call_recording_category_title">Nahrávanie hovoru</string>
+    <string name="call_recording_format">Formát zvuku</string>
+    <string name="call_via">Volať cez</string>
+    <string name="call_via_dialog_title">Volať cez\u2026</string>
+    <string name="call_log_stats_title">Štatistika</string>
+    <string name="disable_proximity_sensor_title">Vypnúť snímač vzdialenosti</string>
+    <string name="disable_proximity_sensor_summary">Nevypínať dotykovú obrazovku a displej počas hovoru založeného na snímači vzdialenosti</string>
+    <string name="sensor_settings_titile">Snímače</string>
 </resources>
